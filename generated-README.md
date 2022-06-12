@@ -1,4 +1,4 @@
-# README Title (badge)
+# README Title ![Badge](https://img.shields.io/badge/MIT-License-green)
 
 ## Table of Contents
 
@@ -28,11 +28,14 @@ usage instructions go here
 
 ## License
 
-License information goes here
+MIT
+Apache
+GNU
+(badge appears at top from https://shields.io/)
 
 ## Contributing
 
-Contributing information goes here
+Contribution guideleines go here
 
 ## Tests
 
@@ -45,15 +48,3 @@ Test information goes here
 Any questions?
 Please contact me on (email)
 Visit my github profile [here] https://github.com/LonelyOrphan
-
-## Screenshots and Videos
-
-Screenshots and videos go here
-
-## Contact Me
-
-Contact information goes here
-
-## Node Packages
-
-Node packages used go here
