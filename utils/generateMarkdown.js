@@ -43,6 +43,7 @@ function generateMarkdown(data) {
 
   ## Contributing
   If you would like to contribute to this project, please:  
+
   ${data.contributing}
 
   ## Tests
@@ -52,6 +53,7 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions, email me at ${data.email}  
+  
   GitHub: https://github.com/${data.github}
   `
   );
