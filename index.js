@@ -1,12 +1,11 @@
 console.log("Hi from node JS");
 
-//Include packages needed for this application
+// Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { cpuUsage } = require("process");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+// Questions for user input
 const questions = () => {
   return inquirer.prompt([
     {
@@ -58,7 +57,7 @@ const questions = () => {
   ]);
 };
 
-// TODO: Create a function to write README file
+// Write to README file
 const saveReadme = (data) => {
   console.log(data);
   fs.writeFile("README.md", data, function (err) {
@@ -67,12 +66,11 @@ const saveReadme = (data) => {
   });
 };
 
-// TODO: Create a function to initialize app
+// Initialise app
 function init() {
   questions().then((answers) =>
     generateMarkdown(answers).then((data) => saveReadme(data))
   );
 }
 
-// Function call to initialize app
 init();
