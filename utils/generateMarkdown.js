@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   
   ## Installation
   \`\`\`
-  ${data.install}
+  ${data.installation}
   \`\`\`
 
   ## Usage 
@@ -42,17 +42,17 @@ function generateMarkdown(data) {
   This project is licensed under ${data.license}
 
   ## Contributing
-  If you would like to contribute to this project, please: 
-  ${data.contributors}
+  If you would like to contribute to this project, please:  
+  ${data.contributing}
 
   ## Tests
   \`\`\`
-  ${data.test}
+  ${data.tests}
   \`\`\`
 
   ## Questions
-  If you have any questions, email me at ${data.email}
-  GitHub: https://github.com/${data.github}.
+  If you have any questions, email me at ${data.email}  
+  GitHub: https://github.com/${data.github}
   `
   );
 }

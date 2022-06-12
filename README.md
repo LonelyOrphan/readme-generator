@@ -1,4 +1,4 @@
-# Readme Generator![Github licence](https://img.shields.io/badge/MIT-License-orange)
+# test ![Github licence](https://img.shields.io/badge/MIT-License-orange)
 
   ## Table of Contents
   * [Description](#description)
@@ -10,31 +10,31 @@
   * [Questions](#questions)
   
   ## Description 
-  A script that asks the user questions and then creates a readme using the responses
+  test
   
   ## Installation
   ```
-  undefined
+  test
   ```
 
   ## Usage 
   ```
-  Navigate to the folder using terminal/bash and run index.js with the command "node index.js"
+  test
   ```
 
   ## License 
   This project is licensed under MIT
 
   ## Contributing
-  If you would like to contribute to this project, please: 
-  undefined
+  If you would like to contribute to this project, please:  
+  test
 
   ## Tests
   ```
-  undefined
+  test
   ```
 
   ## Questions
-  If you have any questions, email me at beddow90@gmail.com
-  GitHub: https://github.com/github.com/lonelyorphan.
+  If you have any questions, email me at test  
+  GitHub: https://github.com/test
   
