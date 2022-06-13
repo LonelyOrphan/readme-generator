@@ -1,5 +1,3 @@
-console.log("Hi from node JS");
-
 // Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
@@ -51,7 +49,7 @@ const questions = () => {
     },
     {
       type: "input",
-      message: "What is your github profile URL?",
+      message: "What is your github username?",
       name: "github",
     },
   ]);
